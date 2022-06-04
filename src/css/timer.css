@@ -1,0 +1,21 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field span {
+  display: block;
+  min-width: 100px;
+  text-align: center;
+}
+
+.value {
+  font-size: 70px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+}
