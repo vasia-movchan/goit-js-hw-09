@@ -1,4 +1,5 @@
 import flatpickr from "flatpickr";
+import Notiflix from "notiflix";
 
 // import "flatpickr/dist/flatpickr.css";
 // через import css стилі не підключаються
@@ -30,7 +31,7 @@ const options = {
       selectedDate = selectedDates[0];
     } else {
       refs.button.disabled = true;
-      window.alert("Please choose a date in the future");
+      Notiflix.Notify.failure("Please choose a date in the future");
     }
   },
 };
